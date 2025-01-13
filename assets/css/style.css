@@ -467,6 +467,7 @@ p {
     left: 0;
     width: 100%;
     z-index: 99;
+    height: 100px;
 }
 
 .rac_header_wrapper.fixed {
@@ -499,11 +500,13 @@ p {
     display: flex;
     align-items: center;
     gap: 55px;
+   
 }
 
 .rac_nav_item>ul {
     display: flex;
     gap: 50px;
+   padding-top: 20px;
 }
 
 .rac_nav_item>ul li a {
@@ -585,6 +588,7 @@ p {
     -ms-user-select: none;
     user-select: none;
     width: 50px;
+    padding-top: 20px;
 }
 
 .line {
@@ -1137,6 +1141,7 @@ p {
 
     .col-lg-7 {
         padding-top: 10px; 
+        margin-top: 30px;
     }
 
     .rac_form_btn .rac_btn {
@@ -1173,6 +1178,7 @@ p {
 
     .col-lg-7 {
         padding: 5px; 
+        margin-top: 30px;
     }
 }
 
