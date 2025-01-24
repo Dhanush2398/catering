@@ -2076,3 +2076,170 @@ p {
     height: 600px;
     border: none;
 }
+
+.rac_logo img {
+    height: 80px;
+    width: 190px;
+}
+
+.menu-section {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .menu-header {
+    font-size: 2.5rem;
+    color: gold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: 2px solid gold;
+    display: inline-block;
+    padding-bottom: 5px;
+  }
+
+  .menu-items {
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 20px;
+  }
+
+  .menu-item {
+    background: #222;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    text-align: left;
+  }
+
+  .menu-item h3 {
+    color: gold;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+
+  .sub-contents {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .sub-contents li {
+    font-size: 1.2rem;
+    color: #ddd;
+    padding: 5px 0;
+    border-bottom: 1px dashed gold;
+  }
+
+  .sub-contents li:last-child {
+    border-bottom: none;
+  }
+
+ 
+  .menu-item:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s;
+  }
+
+  .sub-contents li:hover {
+    color: white;
+    text-shadow: 0 0 5px gold;
+  }
+
+  
+  @media (min-width: 600px) {
+    .menu-items {
+      grid-template-columns: repeat(2, 1fr); 
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .menu-section {
+      max-width: 1200px;
+    }
+  }
+
+  /* Menu Section */
+.menu-section-2 {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .menu-header-2 {
+    font-size: 1.5rem;
+    color: gold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center; 
+    width: 100%;
+    text-decoration: underline ;
+  }
+  
+  
+  .menu-items-2 {
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 20px;
+  }
+  
+  .menu-item-2 {
+    background: #ffffff; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .menu-item-2 h3 {
+    font-size: 1.8rem;
+    color: #333333; 
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #f18aac; 
+  }
+  .sub-contents-2 {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sub-contents-2 li {
+    font-size: 1.2rem;
+    color: #4e4e4e; 
+    padding: 8px 0;
+    border-bottom: 1px dashed #d0367e; 
+    transition: color 0.3s, font-weight 0.3s;
+  }
+  
+  .sub-contents-2 li:last-child {
+    border-bottom: none;
+  }
+  
+ 
+  .menu-item-2:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    background: #fffcf3; 
+  }
+  
+  .sub-contents-2 li:hover {
+    color: #ff6b6b; 
+    font-weight: bold;
+  }
+  
+  
+  @media (min-width: 600px) {
+    .menu-items-2 {
+      grid-template-columns: repeat(2, 1fr); 
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .menu-items-2 {
+      grid-template-columns: repeat(2, 1fr); 
+    }
+  }
