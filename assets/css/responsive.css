@@ -33,7 +33,7 @@
     .rac_app_text h3 {
         font-size: 45px;
     }
-    .rac_banner_wrapper::before, .rac_about_wrapper::before, .rac_offer_wrapper::before, .rac_booking_wrapper::before, .rac_chefs_wrapper::before, .rac_footer_wrapper::before, .rac_planning_wrapper::before {
+    .rac_banner_wrapper::before, .rac_about_wrapper::before, .rac_offer_wrapper::before, .rac_chefs_wrapper::before, .rac_footer_wrapper::before, .rac_planning_wrapper::before {
         top: 0;
         background-size: contain;
         background-position: center;
